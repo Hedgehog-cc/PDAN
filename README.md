@@ -10,3 +10,7 @@ To support research in this community, we propose UDA‑HS‑1K, a large-scale b
 
 <img width="1280" height="646" alt="example" src="https://github.com/user-attachments/assets/78a33060-d450-48fa-a968-cddec1eddfe3" />
 
+The complete UDA-HS-1K dataset and split files are provided in the data directory. After preparing the UDA-HS-1K, train the model by running:
+```bash
+python PDAN.py --num_steps 250000 --batch_size 32 --num_classes 1000
+```
