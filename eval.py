@@ -1,8 +1,3 @@
-# 伪代码示例
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.manifold import TSNE
-
 import sys, torch, argparse, os, random
 import numpy as np
 import torch.nn as nn
@@ -15,13 +10,11 @@ import torch.utils.data as torch_data
 import torch.backends.cudnn as cudnn
 from PIL import Image
 from torch.autograd import Variable
-from util.utils import poly_lr_scheduler, adjust_learning_rate, save_models, load_models, CheckpointManager
+from util.utils import load_models, CheckpointManager
 from util.loader.data_list import ImageList
 import util.loader.pre_process as prep
-from torch.distributions import Beta
 from util.eval import image_classification_test
 from model.model import FeatureExtractor,TaskClassifier,DomainClassifier
-from sklearn.manifold import TSNE
 import os.path as osp
 
 
