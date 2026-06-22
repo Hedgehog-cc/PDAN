@@ -15,7 +15,7 @@ To support research in this community, we propose UDA‑HS‑1K, a large-scale b
 # Getting Started
 The dataset split files are already provided in the `data` directory. Please download the full UDA-HS-1K dataset via the link below:
 
-Baidu Netdisk: https://pan.baidu.com/s/1g29lySwRw8oc-QG657rNmQ?pwd=0812 (Access Code: `0812`)
+Baidu Netdisk: https://pan.baidu.com/s/1k8OVcEx_LSuK8EV6Ndr45A?pwd=jx29 (Access Code: `jx29`)
 
 Setup:
 Download and move the `handprint` and `scan` folders into `./data/`.
