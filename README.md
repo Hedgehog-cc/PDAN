@@ -26,3 +26,13 @@ Once the data is prepared, you can train the model by running:
 ```bash
 python PDAN.py --num_steps 250000 --batch_size 32 --num_classes 1000
 ```
+
+If you evaluate the model directly using our pre-trained weights, please follow the steps below.
+
+1.Download Weights: From the Baidu Netdisk link above, download the `weights` folder.
+2.Setup: Place the downloaded `weights` folder in your project root directory.
+3.Run Evaluation: Run the following command to start evaluation.
+
+```bash
+python eval.py --model_path ./weights/checkpoint_max.pth --batch_size 32
+```
